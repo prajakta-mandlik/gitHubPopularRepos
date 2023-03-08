@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: Lobster;
+  font-size: 40px;
+}
+.language-data-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.lists {
+  margin-right: 10px;
+}
+
+.repository-item {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+}
